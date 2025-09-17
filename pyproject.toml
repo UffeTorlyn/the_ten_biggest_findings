@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "the-ten-biggest-findings"
+version = "0.1.0"
+description = ""
+authors = ["Uffe Friis Torlyn <uft@gridcommodities.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+streamlit = "^1.49.1"
+folium = "^0.20.0"
+streamlit-folium = "^0.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
